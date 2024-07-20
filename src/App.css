@@ -1,0 +1,30 @@
+.folder{
+  width:800px;
+  margin:10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:10px;
+  cursor: pointer;
+}
+
+.file{
+  margin:10px;
+  margin-left: 29px;
+  display: flex;
+  justify-content: flex-start;
+  gap:10px;
+  width:300px;
+  cursor: pointer;
+}
+
+.deleteBtn{
+  background: none;
+  border:none;
+}
+
+.temp1:before{
+  content:">";
+  font-weight: bold;
+  color:black;
+}
